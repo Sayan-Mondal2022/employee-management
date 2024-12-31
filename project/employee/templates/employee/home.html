@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Home - Page{% endblock title %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static "css/home.css" %}">
+
+<div class="main-container">
+    {% if request.session.userInfo %}
+    <h2>Welcome to Admin Page</h2>
+    {% else %}
+    <h2>Welcome, Are you new here!!<a href={% url "login" %} class="anchor">Please login!!</a></h2>
+    {% endif %}
+    
+</div>
+{% endblock content %}

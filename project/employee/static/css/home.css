@@ -1,0 +1,13 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 85vh;
+    margin: 20px;
+}
+
+main h2{
+    color: whitesmoke;
+    font-size: 40px;
+}

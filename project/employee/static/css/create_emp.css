@@ -1,0 +1,110 @@
+.container{
+    width: 98vw;
+    min-height: 75vh;
+    max-height: fit-content;
+    margin: 24px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-elements {
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+    width: 50%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.form-elements h2{
+    margin: 12px 0;
+}
+
+.input-box{
+    width: 25vw;
+    min-height: 6vh;
+    max-height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+}
+
+.input-label{
+    height: 5vh;
+    display: flex;
+    justify-content:  flex-start;
+    align-items: center;
+    width: 8vw;
+}
+
+.input-label:hover{
+    cursor: pointer;
+}
+
+.form-control{
+    width: 15vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font: inherit;
+    padding: 5px;
+    transition: all 0.45s ease;
+}
+
+.form-control:hover, .form-control:focus, .form-control:active{
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.special-style{
+    padding: 5px;
+    transition: all 0.45s ease;
+}
+
+.special-style:hover{
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.image-input{
+    width: 15vw;
+    height: 5vh;
+    font: inherit;
+    padding: 5px;
+    transition: all 0.45s ease;
+}
+
+.image-input:hover{
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 8px rgba(0,0,0,0.35);
+}
+
+.submit-btn{
+    border: none;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 10px;
+    font: inherit;
+    margin: 12px;
+    transition: all 0.45s ease;
+}
+
+.submit-btn:hover, .submit-btn:active{
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
